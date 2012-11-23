@@ -16,7 +16,7 @@
 		068A346A16584ED90036056A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068A346916584ED90036056A /* SenTestingKit.framework */; };
 		068A346B16584ED90036056A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068A344B16584ED90036056A /* Cocoa.framework */; };
 		068A347316584ED90036056A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 068A347116584ED90036056A /* InfoPlist.strings */; };
-		068A347616584ED90036056A /* AQRecorderTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 068A347516584ED90036056A /* AQRecorderTestsTests.m */; };
+		068A347616584ED90036056A /* AQRecorderTestsTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 068A347516584ED90036056A /* AQRecorderTestsTests.mm */; };
 		068A348516584F010036056A /* SFAQRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 068A348416584F010036056A /* SFAQRecorder.mm */; };
 		068A348616584F010036056A /* SFAQRecorder.mm in Sources */ = {isa = PBXBuildFile; fileRef = 068A348416584F010036056A /* SFAQRecorder.mm */; };
 		068A348916584F0D0036056A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068A348816584F0D0036056A /* AudioToolbox.framework */; };
@@ -30,6 +30,9 @@
 		068A349A16584F660036056A /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 068A349316584F660036056A /* CAXException.cpp */; };
 		068A349D16584F7A0036056A /* SFDebugLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 068A349C16584F7A0036056A /* SFDebugLog.mm */; };
 		068A349E16584F7A0036056A /* SFDebugLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 068A349C16584F7A0036056A /* SFDebugLog.mm */; };
+		06AC94B9166030C100B03A04 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068A348B16584F170036056A /* CoreAudio.framework */; };
+		06AC94BB166030C700B03A04 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 068A348816584F0D0036056A /* AudioToolbox.framework */; };
+		06AC94BE16603A4200B03A04 /* RootWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 06AC94BD16603A4200B03A04 /* RootWindowController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +64,7 @@
 		068A347016584ED90036056A /* AQRecorderTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AQRecorderTestsTests-Info.plist"; sourceTree = "<group>"; };
 		068A347216584ED90036056A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		068A347416584ED90036056A /* AQRecorderTestsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AQRecorderTestsTests.h; sourceTree = "<group>"; };
-		068A347516584ED90036056A /* AQRecorderTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQRecorderTestsTests.m; sourceTree = "<group>"; };
+		068A347516584ED90036056A /* AQRecorderTestsTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AQRecorderTestsTests.mm; sourceTree = "<group>"; };
 		068A348316584F010036056A /* SFAQRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFAQRecorder.h; path = AQRecorderTests/SFAQRecorder.h; sourceTree = "<group>"; };
 		068A348416584F010036056A /* SFAQRecorder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SFAQRecorder.mm; path = AQRecorderTests/SFAQRecorder.mm; sourceTree = "<group>"; };
 		068A348816584F0D0036056A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -76,6 +79,8 @@
 		068A349416584F660036056A /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAXException.h; path = AQRecorderTests/CAXException.h; sourceTree = "<group>"; };
 		068A349B16584F7A0036056A /* SFDebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFDebugLog.h; path = AQRecorderTests/SFDebugLog.h; sourceTree = "<group>"; };
 		068A349C16584F7A0036056A /* SFDebugLog.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SFDebugLog.mm; path = AQRecorderTests/SFDebugLog.mm; sourceTree = "<group>"; };
+		06AC94BC16603A4200B03A04 /* RootWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootWindowController.h; sourceTree = "<group>"; };
+		06AC94BD16603A4200B03A04 /* RootWindowController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RootWindowController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06AC94BB166030C700B03A04 /* AudioToolbox.framework in Frameworks */,
+				06AC94B9166030C100B03A04 /* CoreAudio.framework in Frameworks */,
 				068A346A16584ED90036056A /* SenTestingKit.framework in Frameworks */,
 				068A346B16584ED90036056A /* Cocoa.framework in Frameworks */,
 			);
@@ -152,6 +159,8 @@
 			children = (
 				068A345D16584ED90036056A /* AppDelegate.h */,
 				068A345E16584ED90036056A /* AppDelegate.m */,
+				06AC94BC16603A4200B03A04 /* RootWindowController.h */,
+				06AC94BD16603A4200B03A04 /* RootWindowController.mm */,
 				068A346016584ED90036056A /* MainMenu.xib */,
 				068A345216584ED90036056A /* Supporting Files */,
 			);
@@ -174,7 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				068A347416584ED90036056A /* AQRecorderTestsTests.h */,
-				068A347516584ED90036056A /* AQRecorderTestsTests.m */,
+				068A347516584ED90036056A /* AQRecorderTestsTests.mm */,
 				068A346F16584ED90036056A /* Supporting Files */,
 			);
 			path = AQRecorderTestsTests;
@@ -328,6 +337,7 @@
 				068A349716584F660036056A /* CAStreamBasicDescription.cpp in Sources */,
 				068A349916584F660036056A /* CAXException.cpp in Sources */,
 				068A349D16584F7A0036056A /* SFDebugLog.mm in Sources */,
+				06AC94BE16603A4200B03A04 /* RootWindowController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +345,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				068A347616584ED90036056A /* AQRecorderTestsTests.m in Sources */,
+				068A347616584ED90036056A /* AQRecorderTestsTests.mm in Sources */,
 				068A348616584F010036056A /* SFAQRecorder.mm in Sources */,
 				068A349616584F660036056A /* CADebugMacros.cpp in Sources */,
 				068A349816584F660036056A /* CAStreamBasicDescription.cpp in Sources */,

@@ -90,6 +90,7 @@ public:
 @property (nonatomic, strong) NSString *outputFileName;
 @property (nonatomic, assign) id<SFRecorderWrapperDelegate> delegate;
 @property (nonatomic) SFRecorder *recorder;
+@property (nonatomic, readonly) BOOL recording;
 
 - (SFRecorderWrapper *)initWithDelegate:(id<SFRecorderWrapperDelegate>)delegate andOutputPath:(NSString *)outputPath;
 - (void)startRecord;

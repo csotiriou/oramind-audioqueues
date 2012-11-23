@@ -324,6 +324,11 @@ void SFRecorder::CopyEncoderCookieToFile()
 	
 }
 
+- (BOOL)recording
+{
+	return self.recorder->IsRunning();
+}
+
 - (void)sfRecorderDidStopRecording:(SFRecorder *)recorder withFileURL:(NSURL *)outputFileURL
 {
 	if ([self.delegate respondsToSelector:@selector(sfRecorderWrapperDidStopRecording:withFileURL:)]) {
