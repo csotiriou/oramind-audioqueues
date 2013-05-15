@@ -33,6 +33,7 @@ class SFRecorder {
 	AudioFileID					mRecordFile;
 	SInt64						mRecordPacket; // current packet number in record file
 	CAStreamBasicDescription mRecordFormat;
+	
 	Boolean						mIsRunning;
 	CFURLRef					outputFileURLRef;
 	

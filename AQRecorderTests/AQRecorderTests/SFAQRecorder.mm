@@ -169,8 +169,10 @@ void SFRecorder::SetupAudioFormat(UInt32 inFormatID)
 										  &mRecordFormat.mChannelsPerFrame), "couldn't get input channel count");
 #endif
 	
-	mRecordFormat.mFormatID = inFormatID;
 	if (inFormatID == kAudioFormatLinearPCM){
+		AudioStreamBasicDescription mRecordFormat;
+		
+		mRecordFormat.mFormatID = inFormatID;
 		// if we want pcm, default to signed 16-bit little-endian
 		
 		mRecordFormat.mFormatFlags = kLinearPCMFormatFlagIsSignedInteger | kLinearPCMFormatFlagIsPacked;
